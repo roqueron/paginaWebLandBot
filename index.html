@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Violencia Contra la Mujer</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Contenedor principal con imagen de fondo -->
+    <div class="bg-image">
+        <!-- Barra de navegación -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Ley 348</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#definicion">Definición</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tipos">Tipos de Violencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#derechos">Derechos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+  <!-- Sección de nombres -->
+  <section id="definicion" class="container mt-5">
+    <h2>BRASIL - BOLIVIA INFORMATICA INDUSTRIAL</h2>
+    <p>Diseñado por:</p>
+    <p>GUIDO RONALD ROQUE MAMANI</p>
+    <p>EFRAIN CHOQUE MENDOZA</p>
+    <p>DOCENTE: ERWIN NELSON ZABALETA</p>
+
+</section>
+
+        <!-- Sección de definición -->
+        <section id="definicion" class="container mt-5">
+            <h2>Definición de Violencia Contra la Mujer</h2>
+            <p>La violencia contra la mujer se refiere a cualquier acción o conducta basada en su género, que cause daño o sufrimiento físico, sexual, psicológico, emocional o patrimonial, tanto en el ámbito público como en el privado.</p>
+        
+        </section>
+
+              <!-- Contenedor para el video de YouTube -->
+    <div class="container mt-5">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item object-fit-contain" src="https://www.youtube.com/embed/wsY7yTiHqDI" allowfullscreen></iframe>
+        </div>
+    </div>
+
+        <!-- Sección de tipos de violencia -->
+        <section id="tipos" class="container mt-5">
+           
+            <h2>Tipos de Violencia</h2>
+            <ul>
+                <li><strong>Violencia Física:</strong> Cualquier acto que cause daño físico a una mujer.</li>
+                <li><strong>Violencia Psicológica:</strong> Acciones que causen daño emocional y disminuyan la autoestima de la mujer.</li>
+                <li><strong>Violencia Sexual:</strong> Cualquier acto sexual no consentido.</li>
+                <li><strong>Violencia Económica:</strong> Control y limitación de los recursos económicos de la mujer.</li>
+                <li><strong>Violencia Patrimonial:</strong> Daño o pérdida de bienes y propiedades de la mujer.</li>
+                <li><strong>Violencia Laboral:</strong> Discriminación y abuso en el ámbito laboral.</li>
+            </ul>
+        </section>
+
+        <!-- Sección de derechos de las mujeres -->
+        <section id="derechos" class="container mt-5">
+            <h2>Derechos de las Mujeres en Situación de Violencia</h2>
+            <p>La Ley 348 garantiza a las mujeres en situación de violencia los siguientes derechos:</p>
+            <ul>
+                <li>Derecho a recibir atención integral y especializada.</li>
+                <li>Acceso a servicios de salud física y mental.</li>
+                <li>Derecho a la protección y a medidas de seguridad.</li>
+                <li>Derecho a la justicia y reparación del daño.</li>
+            </ul>
+        </section>
+
+  
+    <!-- Contenedor para el video de YouTube -->
+    <div class="container mt-5">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item object-fit-contain" src="https://www.youtube.com/embed/vThzIpzH-L0" allowfullscreen></iframe>
+        </div>
+    </div>
+        <!-- Sección de contacto -->
+        <section id="contacto" class="container mt-5 mb-5">
+            <h2>Contacto</h2>
+            <p>Si necesitas ayuda o más información, por favor contacta con nosotros:</p>
+            <form action="guardar_contacto.php" method="POST">
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Tu nombre">
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Tu correo electrónico">
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea class="form-control" id="mensaje" name="mensaje" rows="3" placeholder="Tu mensaje"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </section>
+
+        <!-- Pie de página -->
+        <footer class="bg-light text-center text-lg-start">
+            <div class="container p-4">
+                <p>&copy; 2024 Ley 348. Todos los derechos reservados.</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Scripts de Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Archivo JavaScript personalizado -->
+    <script src="contact.js"></script>
+
+    <!-- Script para Landbot -->
+    <script>
+        window.addEventListener('mouseover', initLandbot, { once: true });
+        window.addEventListener('touchstart', initLandbot, { once: true });
+        var myLandbot;
+        function initLandbot() {
+          if (!myLandbot) {
+            var s = document.createElement('script');s.type = 'text/javascript';s.async = true;
+            s.addEventListener('load', function() {
+              var myLandbot = new Landbot.Livechat({
+                configUrl: 'https://storage.googleapis.com/landbot.online/v3/H-2510457-WOF0G7711FTIEZLP/index.json',
+              });
+            });
+            s.src = 'https://cdn.landbot.io/landbot-3/landbot-3.0.0.js';
+            var x = document.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);
+          }
+        }
+        </script>
+
+
+</body>
+</html>

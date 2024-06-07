@@ -1,0 +1,32 @@
+/* Estilo para la imagen de fondo */
+.bg-image {
+    background-image: url('gui.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+/* Asegurarse de que el contenido sea legible */
+section {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* Estilo para el formulario de contacto */
+form {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
